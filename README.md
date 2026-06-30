@@ -192,10 +192,10 @@ agent-rules-kit init --profile typescript --dry-run
 - Prefer human-maintained project facts.
 - Review generated files before committing.
 
-## Related Project
+## Related Projects
 
-Repo2Prompt turns codebases into AI-ready context packs.
-Agent Rules Kit generates reusable project rules for coding agents.
+- [Repo2Prompt](https://github.com/MkaliezZ/repo2prompt): Turn any codebase into an AI-ready context pack.
+- [Agent Rules Kit](https://github.com/MkaliezZ/agent-rules-kit): Generate reusable project rules for AI coding agents.
 
 Agent Rules Kit does not depend on Repo2Prompt.
 
