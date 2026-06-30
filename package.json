@@ -1,0 +1,49 @@
+{
+  "name": "agent-rules-kit",
+  "version": "0.1.0",
+  "description": "Generate clean project rules for Codex, Claude Code, Cursor, GitHub Copilot, Gemini CLI, Cline, opencode, Windsurf, Roo Code, Continue, Aider, Zed, Devin, and other AI coding agents.",
+  "license": "MIT",
+  "author": "MkaliezZ",
+  "type": "module",
+  "bin": {
+    "agent-rules-kit": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MkaliezZ/agent-rules-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MkaliezZ/agent-rules-kit/issues"
+  },
+  "homepage": "https://github.com/MkaliezZ/agent-rules-kit#readme",
+  "keywords": [
+    "ai",
+    "agents",
+    "codex",
+    "claude-code",
+    "cursor",
+    "copilot",
+    "gemini",
+    "cline",
+    "rules",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test tests/*.test.mjs",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
